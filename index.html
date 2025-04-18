@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EYENOVA - Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Poppins:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <script src="contact.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>EYENOVA</h1>
+        <div class="lang-toggle" onclick="toggleLang()">🌐</div>
+        <i class="fas fa-bars menu-icon" onclick="toggleMenu()"></i>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="mobile-nav">
+            <a href="#">Home</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Let’s Connect!</h2>
+        <p>Choose your prefered platform to reach us</p>
+        <div class="buttons">
+            <a href="https://www.facebook.com/share/19YizHt3d6/?mibextid=wwXIfr" target="_blank"><i
+                    class='bx bxl-facebook-circle'></i> Facebook</a>
+            <a href="https://www.instagram.com/iriscompany25?igsh=am1pMDhocW5jNGJt" target="_blank"><i
+                    class='bx bxl-instagram-alt'></i> Instagram</a>
+            <a href="#contact">📨 Contact Info</a>
+            <a href="https://eyenova.vercel.app/#" target="_blank"><i class='bx bx-world'></i> Website</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-card">
+            <h3>Contact Information</h3>
+            <div class="contact-item contact-item-phone">📞 Phone: 01012345678</div>
+            <div class="contact-item contact-item-email">📧 Email: iriscompany2025@gmail.com</div>
+            <div class="contact-item contact-item-address">📍 Address: Cairo, Egypt</div>
+        </div>
+        <div class="form-section contactForm">
+            <form id="contact-form">
+                <h3>Send us a Message</h3>
+                <div class="inputBox">
+                    <label class="form-input-name" for="name">Full Name</label>
+                    <input type="text" name="entry.1281157986" id="name" required>
+                </div>
+                <div class="inputBox">
+                    <label class="form-input-email" for="email">Email</label>
+                    <input type="email" name="entry.810748373" id="email" required>
+                </div>
+                <div class="inputBox">
+                    <label class="form-input-message" for="message">Type your message...</label>
+                    <textarea name="entry.1176863742" id="message" required></textarea>
+                </div>
+                <div class="inputBox">
+                    <button type="submit">Send</button>
+                </div>
+                <p id="response-message" class="response-message">Message sent successfully!</p>
+            </form>
+        </div>
+        <div class="map-section">
+            <h3>Find Us Here</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.0372071424575!2d31.235711415114843!3d30.044419681879846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60d4e33df%3A0xb8c3aa47bdccdd0!2z2YXYrdin2YHYuNipINmF2KfZhNix2KfZhdiMINmF2K3Yp9mE2YbYp9iqINin2YTYs9mK2Kkg2KfZhNmF2YbYqSDYp9mE2LPZitiv!5e0!3m2!1sar!2seg!4v1683858405034!5m2!1sar!2seg"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 EYENOVA. All rights reserved.
+    </footer>
+
+</body>
+
+
+</html>
